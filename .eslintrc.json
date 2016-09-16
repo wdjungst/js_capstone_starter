@@ -16,9 +16,12 @@
         "react"
     ],
     "rules": {
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
         "indent": [
             "error",
-            4
+            2,
+            {"SwitchCase": 1 }
         ],
         "linebreak-style": [
             "error",
